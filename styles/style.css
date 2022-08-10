@@ -57,6 +57,23 @@ footer .work-inquiry {
   padding: 0 40px 20px 40px;
   border-radius: 20px;
 }
+.about-me {
+  margin-bottom: 70px;
+}
+.technologies {
+  margin-top: 50px;
+}
+.technologies span {
+  font-size: 48px;
+  font-family: var(--heading-font);
+  text-align: center;
+}
+.technologies-list {
+  margin-top: 30px;
+}
+.technologies-list img {
+  max-width: 50px;
+}
 .content-container {
   padding: 160px 20px;
 }
