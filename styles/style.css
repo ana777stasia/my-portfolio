@@ -31,6 +31,32 @@ p {
   color: #272142;
   margin-top: 0;
 }
+footer {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+footer h2 {
+  font-size: 24px;
+}
+footer h4 {
+  font-size: 48px;
+  font-weight: 700;
+}
+footer a {
+  color: var(--button-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+}
+footer .email-link:hover {
+  color: var(--button-color);
+}
+footer .work-inquiry {
+  background: var(--primary-color);
+  padding: 0 40px 20px 40px;
+  border-radius: 20px;
+}
 .content-container {
   padding: 160px 20px;
 }
@@ -38,11 +64,11 @@ p {
   font-size: 64px;
 }
 .content-container h2 {
-  font-size: 18px;
+  font-size: 24px;
 }
 .content-container p {
   color: #272142;
-  font-size: 16px;
+  font-size: 18px;
   opacity: 0.7;
 }
 .content-container img {
@@ -70,8 +96,8 @@ p {
   margin: 0 20px;
 }
 .social-media a:hover {
-  background: rgb(235, 231, 231);
-  transition: all 200ms ease-in-out;
+  background: rgb(240, 236, 236);
+  transition: all 150ms ease-in-out;
 }
 .nav-link {
   font-family: var(--paragraph-font);
@@ -145,5 +171,11 @@ p {
   }
   .my-projects h1 {
     font-size: 48px;
+  }
+  footer a {
+    font-size: 36px;
+  }
+  .social-media a {
+    font-size: 28px;
   }
 }
