@@ -66,13 +66,13 @@ footer .work-inquiry {
 .technologies span {
   font-size: 48px;
   font-family: var(--heading-font);
-  text-align: center;
 }
 .technologies-list {
   margin-top: 30px;
 }
 .technologies-list img {
   max-width: 50px;
+  margin-left: 0 !important;
 }
 .content-container {
   padding: 160px 20px;
