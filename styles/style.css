@@ -70,10 +70,13 @@ p {
   margin: 0 20px;
 }
 .social-media a:hover {
-  background: rgb(223, 221, 221);
+  background: rgb(235, 231, 231);
   transition: all 200ms ease-in-out;
 }
-
+.nav-link {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+}
 .btn-branding,
 .launch-link {
   font-family: var(--paragraph-font);
