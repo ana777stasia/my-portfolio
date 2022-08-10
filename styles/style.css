@@ -23,12 +23,31 @@ p,
 .app-description {
   font-family: var(--paragraph-font);
   font-weight: 400;
+  line-height: 28px;
 }
 p {
   font-size: 24px;
   opacity: 0.8;
   color: #272142;
   margin-top: 0;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+}
+.about-section h2 {
+  font-size: 18px;
+}
+.about-section p {
+  color: #272142;
+  font-size: 16px;
+  opacity: 0.7;
+}
+.about-section img {
+  border-radius: 40px;
+  margin-left: 30px;
 }
 .btn-branding,
 .launch-link {
@@ -92,5 +111,12 @@ p {
   }
   .container {
     text-align: center;
+  }
+  .about-section {
+    padding: 0;
+  }
+  .about-section img {
+    margin: 0;
+    margin-top: 30px;
   }
 }
