@@ -31,8 +31,7 @@ p {
   margin-top: 0;
 }
 .btn-branding,
-.launch-link,
-.contact-link {
+.launch-link {
   font-family: var(--paragraph-font);
   font-weight: 500;
 }
@@ -44,8 +43,7 @@ p {
   padding: 18px 30px;
   border-radius: 4px;
 }
-.btn-branding:hover,
-.contact-link:hover {
+.btn-branding:hover {
   color: black;
   transition: all 200ms ease-in-out;
 }
@@ -53,8 +51,7 @@ p {
   text-align: center;
   font-size: 18px;
 }
-.app-name,
-.work-inquiry {
+.app-name {
   font-family: var(--heading-font);
   font-weight: 700;
 }
@@ -79,15 +76,7 @@ p {
   text-decoration: none;
   margin: 0;
 }
-.section {
-  background: var(--primary-color);
-  margin: 75px 30px;
-  border-radius: 20px;
-  padding: 0 30px;
-}
-.work-inquiry {
-  font-size: 48px;
-}
+
 @media (max-width: 960px) {
   .hero {
     padding: 80px 0;
